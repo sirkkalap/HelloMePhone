@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDECFE901415141000EC77C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDECFE8F1415141000EC77C3 /* UIKit.framework */; };
+		EDECFE921415141000EC77C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDECFE911415141000EC77C3 /* Foundation.framework */; };
+		EDECFE941415141000EC77C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDECFE931415141000EC77C3 /* CoreGraphics.framework */; };
+		EDECFE9A1415141000EC77C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDECFE981415141000EC77C3 /* InfoPlist.strings */; };
+		EDECFE9C1415141000EC77C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDECFE9B1415141000EC77C3 /* main.m */; };
+		EDECFEA01415141000EC77C3 /* HelloMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDECFE9F1415141000EC77C3 /* HelloMeAppDelegate.m */; };
+		EDECFEA31415141000EC77C3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDECFEA11415141000EC77C3 /* MainWindow.xib */; };
+		EDECFEA61415141000EC77C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDECFEA51415141000EC77C3 /* RootViewController.m */; };
+		EDECFEA91415141000EC77C3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDECFEA71415141000EC77C3 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDECFE8B1415141000EC77C3 /* HelloMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDECFE8F1415141000EC77C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDECFE911415141000EC77C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDECFE931415141000EC77C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDECFE971415141000EC77C3 /* HelloMe-Info.plist */ = {isa = PBXFileReference; path = "HelloMe-Info.plist"; sourceTree = "<group>"; };
+		EDECFE991415141000EC77C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDECFE9B1415141000EC77C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDECFE9D1415141000EC77C3 /* HelloMe-Prefix.pch */ = {isa = PBXFileReference; path = "HelloMe-Prefix.pch"; sourceTree = "<group>"; };
+		EDECFE9E1415141000EC77C3 /* HelloMeAppDelegate.h */ = {isa = PBXFileReference; path = HelloMeAppDelegate.h; sourceTree = "<group>"; };
+		EDECFE9F1415141000EC77C3 /* HelloMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMeAppDelegate.m; sourceTree = "<group>"; };
+		EDECFEA21415141000EC77C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EDECFEA41415141000EC77C3 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		EDECFEA51415141000EC77C3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EDECFEA81415141000EC77C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDECFE881415141000EC77C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECFE901415141000EC77C3 /* UIKit.framework in Frameworks */,
+				EDECFE921415141000EC77C3 /* Foundation.framework in Frameworks */,
+				EDECFE941415141000EC77C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDECFE801415141000EC77C3 = {
+			isa = PBXGroup;
+			children = (
+				EDECFE951415141000EC77C3 /* HelloMe */,
+				EDECFE8E1415141000EC77C3 /* Frameworks */,
+				EDECFE8C1415141000EC77C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDECFE8C1415141000EC77C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDECFE8B1415141000EC77C3 /* HelloMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDECFE8E1415141000EC77C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDECFE8F1415141000EC77C3 /* UIKit.framework */,
+				EDECFE911415141000EC77C3 /* Foundation.framework */,
+				EDECFE931415141000EC77C3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDECFE951415141000EC77C3 /* HelloMe */ = {
+			isa = PBXGroup;
+			children = (
+				EDECFE9E1415141000EC77C3 /* HelloMeAppDelegate.h */,
+				EDECFE9F1415141000EC77C3 /* HelloMeAppDelegate.m */,
+				EDECFEA11415141000EC77C3 /* MainWindow.xib */,
+				EDECFEA41415141000EC77C3 /* RootViewController.h */,
+				EDECFEA51415141000EC77C3 /* RootViewController.m */,
+				EDECFEA71415141000EC77C3 /* RootViewController.xib */,
+				EDECFE961415141000EC77C3 /* Supporting Files */,
+			);
+			path = HelloMe;
+			sourceTree = "<group>";
+		};
+		EDECFE961415141000EC77C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDECFE971415141000EC77C3 /* HelloMe-Info.plist */,
+				EDECFE981415141000EC77C3 /* InfoPlist.strings */,
+				EDECFE9B1415141000EC77C3 /* main.m */,
+				EDECFE9D1415141000EC77C3 /* HelloMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDECFE8A1415141000EC77C3 /* HelloMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDECFEAC1415141000EC77C3 /* Build configuration list for PBXNativeTarget "HelloMe" */;
+			buildPhases = (
+				EDECFE871415141000EC77C3 /* Sources */,
+				EDECFE881415141000EC77C3 /* Frameworks */,
+				EDECFE891415141000EC77C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMe;
+			productName = HelloMe;
+			productReference = EDECFE8B1415141000EC77C3 /* HelloMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDECFE821415141000EC77C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Koti;
+			};
+			buildConfigurationList = EDECFE851415141000EC77C3 /* Build configuration list for PBXProject "HelloMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDECFE801415141000EC77C3;
+			productRefGroup = EDECFE8C1415141000EC77C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDECFE8A1415141000EC77C3 /* HelloMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDECFE891415141000EC77C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECFE9A1415141000EC77C3 /* InfoPlist.strings in Resources */,
+				EDECFEA31415141000EC77C3 /* MainWindow.xib in Resources */,
+				EDECFEA91415141000EC77C3 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDECFE871415141000EC77C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECFE9C1415141000EC77C3 /* main.m in Sources */,
+				EDECFEA01415141000EC77C3 /* HelloMeAppDelegate.m in Sources */,
+				EDECFEA61415141000EC77C3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDECFE981415141000EC77C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDECFE991415141000EC77C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDECFEA11415141000EC77C3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDECFEA21415141000EC77C3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EDECFEA71415141000EC77C3 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDECFEA81415141000EC77C3 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDECFEAA1415141000EC77C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDECFEAB1415141000EC77C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDECFEAD1415141000EC77C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMe/HelloMe-Prefix.pch";
+				INFOPLIST_FILE = "HelloMe/HelloMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDECFEAE1415141000EC77C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMe/HelloMe-Prefix.pch";
+				INFOPLIST_FILE = "HelloMe/HelloMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDECFE851415141000EC77C3 /* Build configuration list for PBXProject "HelloMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDECFEAA1415141000EC77C3 /* Debug */,
+				EDECFEAB1415141000EC77C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDECFEAC1415141000EC77C3 /* Build configuration list for PBXNativeTarget "HelloMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDECFEAD1415141000EC77C3 /* Debug */,
+				EDECFEAE1415141000EC77C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDECFE821415141000EC77C3 /* Project object */;
+}
