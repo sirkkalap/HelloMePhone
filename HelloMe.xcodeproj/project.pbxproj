@@ -23,14 +23,14 @@
 		EDECFE8F1415141000EC77C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EDECFE911415141000EC77C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EDECFE931415141000EC77C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EDECFE971415141000EC77C3 /* HelloMe-Info.plist */ = {isa = PBXFileReference; path = "HelloMe-Info.plist"; sourceTree = "<group>"; };
+		EDECFE971415141000EC77C3 /* HelloMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMe-Info.plist"; sourceTree = "<group>"; };
 		EDECFE991415141000EC77C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDECFE9B1415141000EC77C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDECFE9D1415141000EC77C3 /* HelloMe-Prefix.pch */ = {isa = PBXFileReference; path = "HelloMe-Prefix.pch"; sourceTree = "<group>"; };
-		EDECFE9E1415141000EC77C3 /* HelloMeAppDelegate.h */ = {isa = PBXFileReference; path = HelloMeAppDelegate.h; sourceTree = "<group>"; };
+		EDECFE9D1415141000EC77C3 /* HelloMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMe-Prefix.pch"; sourceTree = "<group>"; };
+		EDECFE9E1415141000EC77C3 /* HelloMeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloMeAppDelegate.h; sourceTree = "<group>"; };
 		EDECFE9F1415141000EC77C3 /* HelloMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMeAppDelegate.m; sourceTree = "<group>"; };
 		EDECFEA21415141000EC77C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		EDECFEA41415141000EC77C3 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		EDECFEA41415141000EC77C3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		EDECFEA51415141000EC77C3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		EDECFEA81415141000EC77C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
